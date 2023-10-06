@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node build.mjs",
+    "build-text": "node build-text.mjs",
+    "build-image": "node build-image.mjs",
     "watch": "./node_modules/.bin/esbuild --loader:.js=jsx src/app.js --bundle --outfile=dist/out.js --watch",
     "serve": "./node_modules/.bin/esbuild --loader:.js=jsx src/app.js --bundle --outfile=dist/out.js --serve"
   },
